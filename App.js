@@ -158,8 +158,7 @@ export default function App() {
       borderTopColor: '#00bfff',
       flex: 1,      
     },    
-    formulario: {  
-     
+    formulario: {      
      padding: 15,
     },
     input: {
