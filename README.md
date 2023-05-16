@@ -21,7 +21,7 @@ Ejemplo practico React Native consumiendo un API REST PHP con fetch
 8- expo publish
 
 
-# Explicacion del código a detalle para comprenderlo mejor:
+# Explicacion del código, para comprenderlo mejor:
 
 1- Importaciones: El código comienza importando varios componentes de React Native, incluyendo React, useState, useEffect, y componentes específicos como Text, View, TextInput, Button, SafeAreaView, FlatList y Alert. Estos componentes son utilizados en la aplicación para construir la interfaz de usuario.
 
