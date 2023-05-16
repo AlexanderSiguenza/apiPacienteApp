@@ -1,7 +1,8 @@
 # apiPacienteApp
 Ejemplo practico React Native consumiendo un API REST PHP con fetch
 
-Pasos para crear el proyecto :
+
+# Pasos para crear el proyecto :
 
 1- npm install -g expo-cli (Si es primera vez que utilizan expo)
 
@@ -20,9 +21,7 @@ Pasos para crear el proyecto :
 8- expo publish
 
 
-Este codigo puede ayudar de base para poder implementar las demas pantallas de la clinica.
-
-Explicacion del código a detalle para comprenderlo mejor:
+# Explicacion del código a detalle para comprenderlo mejor:
 
 1- Importaciones: El código comienza importando varios componentes de React Native, incluyendo React, useState, useEffect, y componentes específicos como Text, View, TextInput, Button, SafeAreaView, FlatList y Alert. Estos componentes son utilizados en la aplicación para construir la interfaz de usuario.
 
