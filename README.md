@@ -1,6 +1,8 @@
 # apiPacienteApp
 Ejemplo practico React Native consumiendo un API REST PHP con fetch
 
+https://github.com/AlexanderSiguenza/apiPacienteApp/blob/main/img/CRUDAPIRESTPHP.jpg
+
 En LInea : https://auriculate-macro.000webhostapp.com/apiPacienteApp/pacientes.php
 
 
