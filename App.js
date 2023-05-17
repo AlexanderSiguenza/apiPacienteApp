@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   const obtenerPacientes = () => {
-    fetch('http://192.168.0.13:8080/api/pacientes.php')
+    fetch('http://192.168.0.100:8080/api/pacientes.php')
       .then(response => response.json())
       .then(data => setPacientes(data))
       .catch(error => console.error(error));
@@ -29,7 +29,7 @@ export default function App() {
       direccion: direccion,
       telefono: telefono
     };
-    fetch('http://192.168.0.13:8080/api/pacientes.php', {
+    fetch('http://192.168.0.100:8080/api/pacientes.php', {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -55,7 +55,7 @@ export default function App() {
 
   const eliminarPaciente = async (id) => {
     try {
-      const response = await fetch(`http://192.168.0.13:8080/api/pacientes.php?id=${id}`, {
+      const response = await fetch(`http://192.168.0.100:8080/api/pacientes.php?id=${id}`, {
         method: 'DELETE',        
           headers: {
           'Content-Type': 'application/json',          
